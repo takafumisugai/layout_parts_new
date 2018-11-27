@@ -1,5 +1,99 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.main{
+  background-color: #ECF1F2;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.box_a{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  font-size:2em;
+  text-align:center;
+  line-height: 100px;
+}
 
+.a{
+  background-color: #ffefd3;
+  top: 40px;
+  left: 200px;
+  z-index:auto;
+}
+.a::after{
+  background-color: #ffefd3;
+  content:"";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  z-index:4;
+}
+
+.b{
+  background-color: #7084de;
+  top: 120px;
+  left: 280px;
+  z-index:;
+}
+
+.c{
+  background-color: #d0ecea;
+  top: 200px;
+  left: 360px;
+  z-index:;
+}
+
+.d{
+  background-color: #8b7a5e;
+  bottom: 120px;
+  left: 280px;
+  z-index:1;
+}
+
+.e{
+  background-color: #9fd6d2;
+  left: 200px;
+  bottom: 40px;
+  z-index:2;
+}
+
+.f{
+  background-color: #fffee4;
+  left: 120px;
+  bottom: 120px;
+  z-index: 2;
+}
+
+.g{
+  background-color: #deae70;
+  top: 200px;
+  left: 40px;
+  z-index: 3;
+}
+
+.h{
+  background-color: #de70cf;
+  top: 120px;
+  left: 120px;
+  z-index:4;
+}
+
+.sub{
+  background-color: #2b60a3;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  top:10px;
+  left:10px;
+  font-size:2em;
+  text-align:center;
+  line-height: 100px;
+}
 /* 回答はここに書いてね */

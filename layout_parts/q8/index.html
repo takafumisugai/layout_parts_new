@@ -32,26 +32,26 @@
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q8 q8--btn">
             <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="ao small btn">common</div>
+            <div class="aka small btn">error</div>
+            <div class="gr small btn">disabled</div>
+            <div class="wh small btn">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="ao middle btn">common</div>
+            <div class="aka middle btn">error</div>
+            <div class="gr middle btn">disabled</div>
+            <div class="wh middle btn">shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn oya">
             <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="ao large btn">common</div>
+            <div class="aka large btn">error</div>
+            <div class="gr large btn">disabled</div>
+            <div class="wh large btn">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -99,8 +99,61 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <form class="form">
+              <div class="form_title">
+            <p class="form_title_text">Form Exercise</p>
           </div>
+          <div class="clearfix">
+              <div class="main">
+                <div class="main_items">
+                  <div class="clearfix">
+                    <p class="main_items_title">名前<span class="is-required">*</span>
+                    </p>
+                    <div class="main_items_content"><input type="text" class="input_content input_none" name="name" required></div>
+                  </div>
+                  <div class="clearfix">
+                    <p class="main_items_title">性別</p>
+                    <div class="main_items_content">
+                      <label class="radio">
+                        <input class="radio_btn" type="radio" name="sex" value="male"><span class="radio_text">男性</span></label>
+                      <label class="radio">
+                        <input class="radio_btn" type="radio" name="sex" value="female"><span class="radio_text">女性</span></label>
+                    </div>
+                  </div>
+                  <div class="clearfix">
+                    <p class="main_items_title">出身</p>
+                    <div class="main_items_content select_a">
+                      <select class="select_body input_content input_none" name="from">
+                        <option value="tokyo">東京</option>
+                        <option value="saitama">埼玉</option>
+                        <option value="chiba">千葉</option>
+                        <option value="kanagawa">神奈川</option>
+                      </select></div>
+                  </div>
+                  <div class="clearfix">
+                    <div class="main_items_title">Eメール<span class="is-required">*</span></div>
+                  <div class="main_items_content">
+                  <input type="email" class="input_content input_none" name="email" placeholder="ex) hoge@gmail.com" required></div>
+                  </div>
+                  <div class="clearfix">
+                    <div class="main_items_title">電話番号</div><div class="main_items_content"><input class="input_content input_none" type="text" name="name" placeholder="ex) 08012345678"></div>
+                  </div>
+                  <div class="clearfix">
+                    <div class="main_items_content">
+                      <div class="checkbox">
+                    <input class="checkbox_btn" type="checkbox" name="twenty" id="checkbox" value="true">
+                    <label for="checkbox" class="checkbox_text">20歳以上です</label>
+                  </div>
+                </div>
+                  </div>
+                </div>
+                <div class="main_bottom input_none"><button class="main_bottom_btn">送信</button></div>
+              </div>
+              <div class="side">
+              <textarea name="message" class="side_form  input_none" placeholder="何かあれば入力してください。"></textarea>
+            </div>
+          </div>
+            </form>
           <!-- 回答はここに書いてね -->
         </div>
       </div>

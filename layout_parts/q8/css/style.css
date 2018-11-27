@@ -1,5 +1,287 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.btn{
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.btn:first-of-type{
+  margin-left: 0;
+}
 
+.ao{
+  background-color: #00bcd4;
+  color: #fff;
+  cursor:pointer;
+}
+
+.aka{
+  background-color: #ff4081;
+  color: #fff;
+  cursor:pointer;
+}
+
+.gr{
+  background-color: #e5e5e5;
+  color: #fff;
+  cursor:default;
+}
+
+.wh{
+  background-color: #222
+  color: #000;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12),
+              0 1px 4px rgba(0,0,0,.12);
+  cursor:pointer;
+}
+
+.small{
+  line-height:26px;
+  padding:0 15px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.middle{
+  line-height: 32px;
+  padding:0 20px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.large{
+  line-height: 38px;
+  padding:0 25px;
+  font-size: 24px;
+  border-radius: 7px;
+}
+
+.form_title{
+  position: relative;
+  margin-bottom: 20px;
+}
+.form_title_text{
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  font-weight:bold;
+  padding-right: 10px;
+  background-color: #ECF1F2;
+}
+.form_title:before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.form{
+  width:700px;
+  background-color: #ECF1F2;
+  padding:20px;
+  margin:0 auto;
+}
+
+.main{
+  float: left;
+  width: 300px;
+}
+.main_items{
+  margin-bottom: 20px;
+}
+.main_items:first-child{
+  margin-top: 0;
+}
+
+.main_items_title{
+  float:left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+.main_items_title .is-required{
+  color:#F00;
+}
+.main_items_content{
+  float: right;
+  width: 180px;
+}
+
+.main_bottom{
+  text-align: right;
+}
+.main_bottom_btn{
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+  border: 0;
+}
+.main__bottom__btn:active {
+  background-color: #FFF;
+  color: #00BCD4;
+}
+.input_content{
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+.input_content:focus{
+  box-shadow: 0 0 7px #00BCD4;
+}
+.input_none{
+  background-color: none;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.side{
+  float:right;
+  width:380px;
+}
+.side_form{
+  width:100%;
+  height:203px;
+  padding:10px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}
+.side_form:focus{
+  box-shadow: 0 0 7px #00BCD4;
+}
+
+.sex_items{
+  float:right;
+}
+
+.select_a{
+  position: relative;
+}
+.select_body{
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.select_a:after {
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  transform: rotate(45deg);
+  content: "";
+  pointer-events: none;
+}
+
+.checkbox{
+  text-align: right;
+}
+.checkbox_btn{
+  display: none;
+}
+.checkbox_text{
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+}
+.checkbox_text::before{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -9px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: '';
+}
+
+.checkbox_btn:checked + .checkbox_text:after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  margin-top: -14px;
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid #00BCD4;
+  border-bottom: 3px solid #00BCD4;
+  transform: rotate(45deg);
+  content: '';
+}
+
+.clearfix{
+  margin-top: 20px;
+}
+.clearfix:first-child{
+  margin: 0;
+}
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.radio{
+  cursor:pointer;
+}
+.radio_btn{
+  display: none;
+}
+.radio_text{
+  position:relative;
+  display:inline-block;
+  padding:3px 3px 3px 20px;
+}
+.radio_btn:checked + .radio_text:after{
+  position:absolute;
+  top:50%;
+  left:4px;
+  width:8px;
+  height:8px;
+  margin-top:-4px;
+  background-color: #00BCD4;
+  border-radius:50%;
+  content:"";
+}
+.radio_text:before{
+  position: absolute;
+  top:50%;
+  left:0;
+  width:14px;
+  height:14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border:1px solid #ccc;
+  border-radius: 50%;
+  content:"";
+}
 /* 回答はここに書いてね */

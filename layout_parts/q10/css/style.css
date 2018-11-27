@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.coment{
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px;
+  border: solid 5px #222;
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 30px;
+}
+.coment:before, .coment:after{
+  content: "";
+  position: absolute;
+  left: 25px;
+  border: 25px solid transparent;
+}
+.coment:before{
+  top: 100%;
+  border-top: 24px solid #222;
+}
+.coment:after{
+  top: 96%;
+  border-top: 24px solid #FFF;
+}
 /* 回答はここに書いてね */
