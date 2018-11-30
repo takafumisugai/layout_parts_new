@@ -12,26 +12,26 @@
   margin-left: 0;
 }
 
-.ao{
+.blue{
   background-color: #00bcd4;
   color: #fff;
   cursor:pointer;
 }
 
-.aka{
+.red{
   background-color: #ff4081;
   color: #fff;
   cursor:pointer;
 }
 
-.gr{
+.gray{
   background-color: #e5e5e5;
   color: #fff;
   cursor:default;
 }
 
-.wh{
-  background-color: #222
+.white{
+  background-color: #fff;
   color: #000;
   box-shadow: 0 1px 6px rgba(0,0,0,.12),
               0 1px 4px rgba(0,0,0,.12);
@@ -100,7 +100,7 @@
 }
 
 .main_items_title{
-  float:left;
+  float: left;
   width: 100px;
   line-height: 25px;
   text-align: right;
@@ -126,9 +126,11 @@
   line-height: 26px;
   border: 0;
 }
-.main__bottom__btn:active {
+.main_bottom_btn:active {
   background-color: #FFF;
   color: #00BCD4;
+  border: none;
+  outline: none;
 }
 .input_content{
   width: 100%;

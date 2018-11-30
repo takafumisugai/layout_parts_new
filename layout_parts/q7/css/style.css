@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.a{
+.q7_1a{
   float:left;
   width:205px;
   margin-left: 50px;
   font-size:16px;
 }
 
-.a:first-child{
+.q7_1a:first-child{
   margin:0;
 }
 
@@ -18,56 +18,59 @@
   clear: both;
 }
 
-.b{
+.q7_2{
   display:table;
   width:100%;
 }
 
-.b_a{
+.q7_2a{
+  padding-left: 50px;
   display:table-cell;
   vertical-align:middle;
   font-size:16px;
   width:225px;
 }
+.q7_2a:first-child{
+  padding-left: 0;
+}
 
-.c{
+.q7_3{
   display:inline-block;
   font-size:16px;
   width:205px;
   margin-left:45px;
   vertical-align: middle;
 }
-.c:first-child{
+.q7_3:first-child{
   margin:0;
 }
 
-.d{
+.q7_4{
   display: flex;
-  align-items:center;
-  justify-content:space-around;
+  align-items:flex-end;
+  justify-content: space-around;
 }
 
-.d_a{
+.q7_4a{
   width:205px;
 }
 
-.e{
+.q7_5{
   font-size: 0;
   overflow: hidden;
 }
 
-.e_a{
+.q7_5a{
   display:inline-block;
   width:300px;
   font-size:16px;
   vertical-align: top;
-  margin-right: 50px;
+  /*margin-right: 50px;*/
 }
 
-.e_b{
+.q7_5b{
   display:inline-block;
-  margin: 0 auto;
-  margin-left: -350px;
+  margin-left: -300px;
   font-size:16px;
   width:100%;
   padding-left:350px;

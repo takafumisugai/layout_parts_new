@@ -1,35 +1,32 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
 
-.a{
-  margin:auto;
+.main{
+  margin: 0 auto;
   padding:20px;
   width: 900px;
   background-color: #eff3f4;
 }
 
-.b{
+.main_text{
   font-size: 18px;
   line-height: 22px;
-  word-wrap: break-word;
-  text-align: justify;
-  text-justify: inter-ideograph;
+  word-break: break-all;
 }
 
-img.jpg1{
+.main_thumb_left{
   float:left;
   margin: 0px 20px 10px 0px;
 }
 
-img.jpg2{
+.main_thumb_right{
   float:right;
   margin: 0px 0px 10px 20px;
-}
-
-.clearfix:after{
-  content: "";
-  display: block;
-  clear: both;
 }
 /* 回答はここに書いてね */

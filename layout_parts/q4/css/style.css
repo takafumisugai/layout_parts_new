@@ -4,44 +4,42 @@
 }
 
 /* 回答はここに書いてね */
-.dtable{
+.main{
   display: table;
   width:100%;
 }
-.dtable:last-child{
+.main:last-child{
   margin-top: 20px;
 }
 
-.dtable_a{
+.main_content{
   display: table-cell;
   padding:20px;
   text-align: center;
 }
 
-.dtable_a.a{
+.main_content.orange{
   background-color: #fdc8b8;
   width: 100px;
 }
-.dtable_a.b{
+.main_content.pink{
   background-color: #e0abd9;
 }
 
-.dtable_a.c{
+.main_content.skyblue{
   background-color: #b6d8ed;
   width: 100px;
 }
 
-.dtable_a.d{
+.main_content.yellow{
   background-color: #e5d32e;
-  padding: 20px;
 }
 
-.dtable_a.e{
+.main_content.red{
   background-color: #ec8f9a;
-  padding: 20px;
 }
 
-.dtable_a.f{
+.main_content.green{
   background-color: #8fdcad;
   width:500px;
 }
