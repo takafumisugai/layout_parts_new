@@ -34,11 +34,14 @@
   padding-left: 0;
 }
 
+.q7_3_wrapper{
+  font-size: 0;
+}
 .q7_3{
+  font-size: 16px;
   display:inline-block;
-  font-size:16px;
   width:205px;
-  margin-left:45px;
+  margin-left: 50px;
   vertical-align: middle;
 }
 .q7_3:first-child{

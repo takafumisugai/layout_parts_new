@@ -87,11 +87,8 @@
 .sub{
   background-color: #2b60a3;
   position: fixed;
-  width: 100px;
-  height: 100px;
   top:10px;
   left:10px;
   text-align:center;
-  line-height: 100px;
 }
 /* 回答はここに書いてね */
